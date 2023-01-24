@@ -3,7 +3,16 @@
   "displayName": "Quantumcode",
   "description": "A VS Code extension tailored for HYBRID Software Engineers",
   "version": "0.0.1",
+  "author": "Jan C. Gerhard",
   "publisher": "jcgerhard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcgerhard/quantumcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcgerhard/quantumcode/issues"
+  },
+  "homepage": "https://github.com/jcgerhard/quantumcode#readme",
   "engines": {
     "vscode": "^1.74.0"
   },
