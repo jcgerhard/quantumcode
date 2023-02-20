@@ -1,10 +1,13 @@
-<p align="center">
-  <img src="assets/quantumcode-readme-300x180.png" height="180px">
+<div align="center">
+  <img alt="Quantumcode Logo" src="./assets/quantumcode.png" height="128px">
+<h1>quantum|code</h1>
   <h3 align="center">
     A <a href="https://code.visualstudio.com" target="_blank"  style="text-decoration: none">VS Code</a> extension tailored for
-    <a href="https://www.hybridsoftware.com" target="_blank" style="text-decoration: none">HYBRID Software PLC</a> engineers</h3>
-</p>
+    <a href="https://www.hybridsoftware.com" target="_blank" style="text-decoration: none">HYBRID Software PLC</a> engineers
+  </h3>
+</div>
 <br/>
+
 <p align="center">
   <a href="https://www.packz.com" target="_blank"><img src="https://img.shields.io/badge/Made%20for-PACKZ-C60061?style=flat-square"/></a>
   <a href="https://cloudflow.hybridsoftware.com" target="_blank"><img src="https://img.shields.io/badge/Made%20for-CLOUDFLOW-1474b6?style=flat-square"/></a>
