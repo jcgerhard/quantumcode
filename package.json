@@ -2,6 +2,7 @@
   "name": "quantumcode",
   "displayName": "Quantumcode",
   "description": "A VS Code extension tailored for HYBRID Software Engineers",
+  "icon": "./assets/quantumcode.png",
   "version": "0.0.1",
   "author": "Jan C. Gerhard",
   "publisher": "jcgerhard",
@@ -20,7 +21,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:quantumcode.helloWorld"
+    "onStartupFinished"
   ],
   "main": "./dist/extension.js",
   "contributes": {
