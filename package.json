@@ -3,12 +3,12 @@
   "displayName": "Quantumcode",
   "description": "A VS Code extension tailored for HYBRID Software Engineers",
   "icon": "./assets/quantumcode.png",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Jan C. Gerhard",
   "publisher": "jcgerhard",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcgerhard/quantumcode.git"
+    "url": "https://github.com/jcgerhard/quantumcode.git"
   },
   "bugs": {
     "url": "https://github.com/jcgerhard/quantumcode/issues"
@@ -28,7 +28,8 @@
     "commands": [
       {
         "command": "quantumcode.helloWorld",
-        "title": "Hello World"
+        "title": "Hello Quantumcode",
+        "category": "Quantumcode"
       }
     ]
   },
