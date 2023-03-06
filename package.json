@@ -3,7 +3,7 @@
   "displayName": "Quantumcode",
   "description": "A VS Code extension tailored for HYBRID Software Engineers",
   "icon": "./assets/quantumcode.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Jan C. Gerhard",
   "publisher": "jcgerhard",
   "repository": {
@@ -25,10 +25,23 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
+    "configuration": [
+      {
+        "title": "Quantumcode",
+        "properties": {
+          "quantumcode.cloudflow.cloudflowBaseUrl": {
+            "description": "The domain or IP address of Cloudflow",
+            "type": "string",
+            "order": 1,
+            "default": "http://127.0.0.1:9090"
+          }
+        }
+      }
+    ],
     "commands": [
       {
-        "command": "quantumcode.helloWorld",
-        "title": "Hello Quantumcode",
+        "command": "quantumcode.openCloudflowManual",
+        "title": "Open Cloudflow Manual",
         "category": "Quantumcode"
       }
     ]
@@ -45,19 +58,22 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.74.0",
     "@types/glob": "^8.0.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
+    "@vscode/test-electron": "^2.2.0",
     "eslint": "^8.28.0",
     "glob": "^8.0.3",
     "mocha": "^10.1.0",
-    "typescript": "^4.9.3",
     "ts-loader": "^9.4.1",
+    "typescript": "^4.9.3",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0",
-    "@vscode/test-electron": "^2.2.0"
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "quantumlib": "^0.0.7"
   }
 }
