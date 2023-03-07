@@ -1,6 +1,20 @@
 # Changelog
 
-## 0.0.4 - 2023-xx-xx
+## 0.0.5 - 2023-xx-xx
+
+✨ New
+
+- xxx
+
+💎 Improvements
+
+- xxx
+
+🐞 Fixes
+
+- xxx
+
+## 0.0.4 - 2023-03-06
 
 ✨ New
 
