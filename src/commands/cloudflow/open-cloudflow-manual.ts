@@ -9,7 +9,9 @@ const openCloudflowManual = (): void => {
   if (cloudflowBaseUrl) {
     vscode.env.openExternal(vscode.Uri.parse(cloudflow.getManualURL(cloudflowBaseUrl)));
   } else {
-    vscode.window.showErrorMessage(`Can't open Cloudflow manual! Please check the settings!`);
+    vscode.window.showErrorMessage(`Cannot open Cloudflow manual!`, 'Check URL settings').then(() => {
+      vscode.commands.executeCommand('workbench.action.openSettings', '@ext:jcgerhard.quantumcode');
+    });
   }
 };
 

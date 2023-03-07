@@ -43,6 +43,11 @@
         "command": "quantumcode.openCloudflowManual",
         "title": "Open Cloudflow Manual",
         "category": "Quantumcode"
+      },
+      {
+        "command": "quantumcode.testCommand",
+        "title": "Test Command",
+        "category": "Quantumcode"
       }
     ]
   },

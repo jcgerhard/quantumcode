@@ -8,7 +8,7 @@
 
 💎 Improvements
 
-- xxx
+- Add error handling for "Open Cloudflow Manual" command
 
 🐞 Fixes
 

@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import openCloudflowManual from './commands/cloudflow/open-cloudflow-manual';
+import testCommand from './commands/test-command';
 
 export function activate(context: vscode.ExtensionContext) {
   // Use the console to output diagnostic information (console.log) and errors (console.error)
@@ -10,7 +11,11 @@ export function activate(context: vscode.ExtensionContext) {
     openCloudflowManual();
   });
 
-  context.subscriptions.push(commandOpenCloudflowManual);
+  let commandTestCommand = vscode.commands.registerCommand('quantumcode.testCommand', () => {
+    testCommand();
+  });
+
+  context.subscriptions.push(commandOpenCloudflowManual, commandTestCommand);
 }
 
 // This method is called when your extension is deactivated
